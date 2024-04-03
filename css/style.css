@@ -7,7 +7,9 @@ body * {
 
 }
 
-h1, h2, p{
+h1,
+h2,
+p {
     margin: 0;
 }
 
@@ -22,7 +24,7 @@ h1, h2, p{
     row-gap: 80px;
 }
 
-.main.main_article{
+.main.main_article {
     row-gap: 40px;
 }
 
@@ -299,7 +301,7 @@ h1, h2, p{
 
 }
 
-.article__top{
+.article__top {
     margin-bottom: 16px;
 }
 
@@ -314,21 +316,21 @@ h1, h2, p{
     color: #1A1A1A;
 }
 
-.support__descr{
+.support__descr {
     font-family: "Museo Sans Cyrl 500";
     font-weight: 600;
     font-size: 13px;
     line-height: 15px;
 }
 
-.support-buttons{
+.support-buttons {
     margin-top: 16px;
     display: flex;
     align-items: center;
     column-gap: 8px;
 }
 
-.support-buttons__item{
+.support-buttons__item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -337,7 +339,7 @@ h1, h2, p{
     text-decoration: none;
 }
 
-.support-buttons__item.support-buttons__item_text{
+.support-buttons__item.support-buttons__item_text {
     border-radius: 12px;
     width: 224px;
     background-color: #36BA5F;
@@ -348,61 +350,66 @@ h1, h2, p{
     line-height: 18px;
 }
 
-@media(max-width:1248px){
-    .main{
+@media(max-width:1248px) {
+    .main {
         padding: 40px 24px;
     }
-    .link-group{
+
+    .link-group {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         row-gap: 8px;
     }
-    .contact-us{
+
+    .contact-us {
         max-height: unset;
         padding: 24px 24px;
     }
-    .join-us{
+
+    .join-us {
         padding: 24px 20px;
     }
 }
 
-@media(max-width:768px){
-    .headline_main{
+@media(max-width:768px) {
+    .headline_main {
         font-size: 8vw;
         line-height: 1;
     }
-    .headline_main span{
+
+    .headline_main span {
         font-size: 2.5vw;
         line-height: 1;
     }
 
-    .decrtiption__text_main{
-        font-size: 5vw;
-        line-height: 1;
-    }
-    
-    .decrtiption__text_second{
-        font-size: 3.5vw;
-        line-height: 1;
-    }
-
-    .headline_second{
+    .decrtiption__text_main {
         font-size: 5vw;
         line-height: 1;
     }
 
-    .headline_second span{
+    .decrtiption__text_second {
         font-size: 3.5vw;
         line-height: 1;
     }
 
-    .link-group__item{
+    .headline_second {
+        font-size: 5vw;
+        line-height: 1;
+    }
+
+    .headline_second span {
+        font-size: 3.5vw;
+        line-height: 1;
+    }
+
+    .link-group__item {
         font-size: 12px;
         line-height: 15px;
     }
-    .contact-us{
+
+    .contact-us {
         padding: 12px;
     }
 }
